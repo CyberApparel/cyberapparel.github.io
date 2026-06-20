@@ -1,0 +1,5 @@
+Place your licensed IBMPlexMono-ExtraLight.ttf file in this folder as:
+
+assets/fonts/IBMPlexMono-ExtraLight.ttf
+
+The site CSS is already wired to use it. The generated package intentionally does not redistribute font files.

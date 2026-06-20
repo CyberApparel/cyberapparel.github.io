@@ -1,0 +1,74 @@
+[
+  {
+    "source": "Back.png",
+    "slug": "back",
+    "file": "assets/img/back.webp",
+    "sha256": "8286c0273197f7dba620a5d3e02810ceef883aad76505288b3fde39a35bcef90"
+  },
+  {
+    "source": "Folded 2.png",
+    "slug": "folded-2",
+    "file": "assets/img/folded-2.webp",
+    "sha256": "177b87075a677b1f5b89caf9a0b028e4776510d16e5c78b2fcee8263e4e89af2"
+  },
+  {
+    "source": "Folded.png",
+    "slug": "folded",
+    "file": "assets/img/folded.webp",
+    "sha256": "140edf0b9dd9e16158a7a9d355306d8857e10895922904e0cd1bf86aab0d3caf"
+  },
+  {
+    "source": "Front Collar Closeup.png",
+    "slug": "front-collar-closeup",
+    "file": "assets/img/front-collar-closeup.webp",
+    "sha256": "8c2db238415ae1608603dd550b4702e111d7f0ceadedd7d8358d01a1e76c01a4"
+  },
+  {
+    "source": "Front.png",
+    "slug": "front",
+    "file": "assets/img/front.webp",
+    "sha256": "0203b8b6b33f98a8700e4b1932865b9b5c0e822eaeefd36c54ff7ca8fc7ebd50"
+  },
+  {
+    "source": "Lifestyle.png",
+    "slug": "lifestyle",
+    "file": "assets/img/lifestyle.webp",
+    "sha256": "3c7bb8e5fbc2d31b632f7107ec1cef56862285149884b296591be80fae1dbf36"
+  },
+  {
+    "source": "Person_1_Front.png",
+    "slug": "person-1-front",
+    "file": "assets/img/person-1-front.webp",
+    "sha256": "b63e49831a65b7432f0ef89ec81207ddac8c3e50bb4d8d8fda8dda6523624b71"
+  },
+  {
+    "source": "Person_2_Front.png",
+    "slug": "person-2-front",
+    "file": "assets/img/person-2-front.webp",
+    "sha256": "4ad1ffbd6b3666c136a3e71c2cfe0df9e9d02191e182452c0a50bc546daca345"
+  },
+  {
+    "source": "Person_3_Context.png",
+    "slug": "person-3-context",
+    "file": "assets/img/person-3-context.webp",
+    "sha256": "183aa4c9694f7f03d2b67c84be7703c033ba47b92402e77ba51f2137d4a8368a"
+  },
+  {
+    "source": "Person_3_Left_Sleeve.png",
+    "slug": "person-3-left-sleeve",
+    "file": "assets/img/person-3-left-sleeve.webp",
+    "sha256": "5121a936ca62532d22e8b5eb0a4cb9ad750f9cc2fb8f4ee26876146327230e3a"
+  },
+  {
+    "source": "Person_4_Context.png",
+    "slug": "person-4-context",
+    "file": "assets/img/person-4-context.webp",
+    "sha256": "f53764abf6f1a76a3ff0bc0b5e4a162c3ad28ac05fc76cb448a8f82505d40957"
+  },
+  {
+    "source": "Person_4_Right_Sleeve.png",
+    "slug": "person-4-right-sleeve",
+    "file": "assets/img/person-4-right-sleeve.webp",
+    "sha256": "cb18129e47b3058484e4d118421214e2dfe14b15dea7f20de9360edb46ca64d2"
+  }
+]

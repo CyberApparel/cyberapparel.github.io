@@ -1,0 +1,39 @@
+window.CY_ARTIFACTS = {
+  "registry": "CY:\\_STATIC_ARTIFACT_REGISTRY",
+  "version": "1.0.0",
+  "generated": "2026-06-19",
+  "artifacts": [
+    {
+      "id": "CA-AI-CHUNK-0001",
+      "artifactName": "CY:\\_AI_CHUNK_0001",
+      "minimalName": "CY:\\_001",
+      "drop": "001",
+      "title": "AI Gets Better By The Chunk",
+      "releaseDate": "2026-06-19",
+      "creatorMark": "CYBER APPAREL CO // CY:\\_",
+      "copyrightNotice": "© 2026 Cyber Apparel Co. All rights reserved.",
+      "claimedMarks": [
+        "CYBER APPAREL CO",
+        "CY:\\_",
+        "AI Gets Better By The Chunk",
+        "CY:\\_AI_CHUNK_0001"
+      ],
+      "qrDestination": "verify.html?id=CA-AI-CHUNK-0001",
+      "hashes": {
+        "sha256_garment": "0203b8b6b33f98a8700e4b1932865b9b5c0e822eaeefd36c54ff7ca8fc7ebd50",
+        "sha256_artwork": "8c2db238415ae1608603dd550b4702e111d7f0ceadedd7d8358d01a1e76c01a4",
+        "sha256_metadata": "34d9b2e2cc47402ddd16ab3d8f30a7415751e48eced12f3c9e732cf7e7a1b46d",
+        "sha256_lifestyle": "3c7bb8e5fbc2d31b632f7107ec1cef56862285149884b296591be80fae1dbf36"
+      },
+      "verificationAliases": [
+        "CA-AI-CHUNK-0001",
+        "CY:\\_AI_CHUNK_0001",
+        "CY:_AI_CHUNK_0001",
+        "CY:\\_001",
+        "CY:_001"
+      ],
+      "state": "verified",
+      "story": "A cryptographic garment bound to an after-dark terminal ritual: hash, witness, sigil, emergence."
+    }
+  ]
+};

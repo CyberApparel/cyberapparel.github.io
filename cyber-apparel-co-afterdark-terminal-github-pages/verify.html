@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CY:\_v // verify</title>
+  <meta name="description" content="Static artifact verification terminal for Cyber Apparel Co.">
+  <meta name="theme-color" content="#030406">
+  <link rel="icon" href="assets/img/sigil.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+  <canvas id="cipher-canvas" aria-hidden="true"></canvas>
+  <header class="site-header">
+  <div class="shell nav">
+    <a class="brand" href="index.html" aria-label="Cyber Apparel Co home"><img src="assets/img/sigil.svg" alt=""><span>CY:\_</span></a>
+    <nav class="nav-links" aria-label="primary">
+      <a href="index.html">/</a>
+      <a href="verify.html?id=CA-AI-CHUNK-0001" aria-current="page">v</a>
+      <a href="drop-001.html">d001</a>
+      <a href="about.html">a</a>
+      <a href="legal-marks.html">m</a>
+    </nav>
+  </div>
+</header>
+  <main>
+
+    <section class="shell page-head">
+      <p class="kicker">proof terminal</p>
+      <h1>CY:\_v</h1>
+      <p class="lede">Enter an artifact ID or minimal name. This static verifier supports <code>CA-AI-CHUNK-0001</code>, <code>CY:\_AI_CHUNK_0001</code>, and <code>CY:\_001</code>.</p>
+    </section>
+
+    <section class="shell verify-wrap">
+      <div class="terminal">
+        <div class="terminal-head">
+          <span>verify@cyberapparel:~/registry</span>
+          <span>static json / no backend</span>
+        </div>
+        <div class="panel">
+          <form data-verify-form class="input-row">
+            <div>
+              <label for="artifact-id">artifact</label>
+              <input id="artifact-id" name="id" value="CA-AI-CHUNK-0001" autocomplete="off" spellcheck="false">
+            </div>
+            <button type="submit">verify</button>
+          </form>
+          <div class="rule"></div>
+          <div data-status class="status">waiting for witness</div>
+          <dl data-proof class="proof-grid"></dl>
+        </div>
+      </div>
+
+      <div class="grid two">
+        <div class="panel">
+          <p class="kicker">qr</p>
+          <div class="qr"><img src="assets/img/qr-cy-ai-chunk-0001.svg" alt="QR destination for CY:\_AI_CHUNK_0001"></div>
+        </div>
+        <div class="panel">
+          <p class="kicker">registry</p>
+          <p>Data is loaded from <a href="data/artifacts.json">data/artifacts.json</a>. When opened through <code>file://</code>, the verifier falls back to the same static registry embedded in JavaScript.</p>
+          <pre class="ascii">proof:
+  input → normalize
+  registry → witness
+  hashes → display
+  backend → none</pre>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer">
+  <div class="shell footer-grid">
+    <span>© <span data-year></span> Cyber Apparel Co // CY:\_</span>
+    <span><a href="data/artifacts.json">registry</a> / <a href="assets/proofs/CY-_AI_CHUNK_0001.metadata.json">proof</a> / <a href="verify.html?id=CA-AI-CHUNK-0001">verify</a></span>
+  </div>
+</footer>
+  <script src="assets/js/artifacts-inline.js"></script>
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
