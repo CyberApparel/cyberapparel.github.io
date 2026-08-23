@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "default": "store",
+  "routes": {
+    "store": {
+      "destination": "https://cyberapparel.store/",
+      "enabled": true
+    },
+    "d001-v0-1": {
+      "alias": "store",
+      "enabled": true
+	  "qr_url": "https://cyberapparel.github.io/qr-d001-v0-1-ex/?id=d001-v0-1"
+    }
+  }
+}

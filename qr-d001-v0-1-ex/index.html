@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QR — Cyber Apparel Co.</title>
+  <meta name="description" content="Cyber Apparel Co. QR routing gateway." />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <noscript>
+    <meta http-equiv="refresh" content="0;url=https://cyberapparel.store/" />
+  </noscript>
+  <style>
+    .four-oh-four {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .four-oh-four-num {
+      font-size: clamp(6rem, 20vw, 16rem);
+      font-weight: 600;
+      line-height: 1;
+      color: rgba(255,255,255,0.04);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      user-select: none;
+      letter-spacing: -0.04em;
+    }
+    .four-oh-four-content {
+      position: relative;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body class="cascade-page">
+
+<nav class="nav">
+  <a href="../index.html" class="nav-logo">
+    <svg
+       class="nav-logo-sigil"
+       viewBox="0 0 111.4 72.658905"
+       role="img"
+       aria-label="CY underscore sigil"
+       xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="navSigilCyberGrad" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#4be8ff" />
+          <stop offset="45%" stop-color="#9a7bff" />
+          <stop offset="100%" stop-color="#ff5fd8" />
+        </linearGradient>
+        <filter id="navSigilNeonGlow" x="-0.074226804" y="-0.1220339" width="1.1484536" height="1.2440678">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur1" />
+          <feColorMatrix in="blur1" mode="matrix" values="0 0 0 0 0.55  0 0 0 0 0.85  0 0 0 0 1  0 0 0 1 0" result="glowColor" />
+          <feMerge>
+            <feMergeNode in="glowColor" />
+            <feMergeNode in="glowColor" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+        <linearGradient xlink:href="#navSigilCyberGrad" id="navSigilGradA" x1="22.811839" y1="22.093791" x2="77.125741" y2="76.407693" gradientTransform="scale(0.92057462,1.086278)" gradientUnits="userSpaceOnUse" xmlns:xlink="http://www.w3.org/1999/xlink" />
+        <linearGradient xlink:href="#navSigilCyberGrad" id="navSigilGradB" x1="54.163432" y1="25.847697" x2="114.13009" y2="85.814355" gradientTransform="scale(1.0339079,0.96720415)" gradientUnits="userSpaceOnUse" xmlns:xlink="http://www.w3.org/1999/xlink" />
+      </defs>
+      <g filter="url(#navSigilNeonGlow)" transform="translate(-13.8,-18.180822)">
+        <path
+           d="M 33,76 C 25,72 21,64 21,53 21,35 32,24 50,24 c 8,0 15,2 21,7 l -9,11 c -4,-3 -8,-4 -13,-4 -9,0 -14,6 -14,16 0,10 5,15 14,15 5,0 10,-2 14,-5 l 8,11 c -6,5 -14,8 -23,8 -6,0 -11,-1 -15,-3 z"
+           fill="url(#navSigilGradA)" />
+        <path
+           d="m 73,25 14,25 14,-25 h 17 L 95,64 V 83 H 79 V 64 L 56,25 Z"
+           fill="url(#navSigilGradB)" />
+      </g>
+    </svg>
+    Cyber Apparel Co.
+  </a>
+  <ul class="nav-links">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../pages/drop001.html">Drop 001</a></li>
+    <li><a href="../pages/verify.html">Verify</a></li>
+    <li><a href="../pages/about.html">About</a></li>
+    <li><a href="../pages/legal.html">Legal / Marks</a></li>
+    <li><a href="../pages/contact.html">Contact</a></li>
+  </ul>
+  <button type="button" class="nav-hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation">
+  <div class="mobile-menu-inner">
+    <a href="../index.html">Home</a>
+    <a href="../pages/drop001.html">Drop 001</a>
+    <a href="../pages/verify.html">Verify</a>
+    <a href="../pages/about.html">About</a>
+    <a href="../pages/legal.html">Legal / Marks</a>
+    <a href="../pages/contact.html">Contact</a>
+  </div>
+</div>
+
+<div class="page-wrap">
+<div class="four-oh-four">
+  <div class="four-oh-four-num" aria-hidden="true">QR</div>
+  <div class="four-oh-four-content">
+    <div style="font-size:0.6rem;letter-spacing:0.3em;text-transform:uppercase;color:var(--dim);margin-bottom:1.5rem;">
+      QR Gateway — Signal Received
+    </div>
+    <h1 id="router-title" style="font-size:clamp(1.4rem,3vw,2rem);font-weight:600;line-height:1.2;margin-bottom:1rem;">
+      Resolving route.
+    </h1>
+    <p id="router-status" aria-live="polite" style="font-size:0.78rem;color:var(--dim);max-width:360px;line-height:1.8;font-weight:200;margin-bottom:2rem;">
+      Connecting to the current Cyber Apparel Co. terminal.
+    </p>
+    <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+      <a id="router-link" href="../index.html" class="btn btn-fill" hidden>Continue →</a>
+      <noscript>
+        <a href="https://cyberapparel.store/" class="btn btn-fill">Continue →</a>
+      </noscript>
+    </div>
+  </div>
+</div>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <span class="nav-logo-mark">CA</span>
+          Cyber Apparel
+        </div>
+        <div class="footer-tagline">
+          Authentic Fit.<br/>
+          Everyday Comfort.<br/>
+          For people who ship.
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">Navigation</div>
+        <ul class="footer-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../pages/drop001.html">Drop 001</a></li>
+          <li><a href="../pages/verify.html">Verify</a></li>
+          <li><a href="../pages/about.html">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Registry</div>
+        <ul class="footer-links">
+          <li><a href="../pages/legal.html">Legal / Marks</a></li>
+          <li><a href="../pages/contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2026 CyberApparel.Store — All rights reserved.</span>
+      <span class="footer-copy">contact@cyberapparel.store</span>
+    </div>
+  </div>
+</footer>
+</div>
+
+<script src="../assets/js/main.js"></script>
+<script>
+  (async function () {
+    'use strict';
+
+    const title = document.getElementById('router-title');
+    const status = document.getElementById('router-status');
+    const link = document.getElementById('router-link');
+    const params = new URLSearchParams(window.location.search);
+    const requested = params.get('id') || params.get('route') || window.location.hash.slice(1);
+    const routePattern = /^[a-z0-9][a-z0-9-]{0,63}$/;
+
+    function showFallback(message) {
+      title.textContent = 'Route unavailable.';
+      status.textContent = message;
+      link.href = '../index.html';
+      link.textContent = '← Go Home';
+      link.hidden = false;
+    }
+
+    function resolveRoute(routes, routeId) {
+      let currentId = routeId;
+      const visited = new Set();
+
+      for (let depth = 0; depth < 16; depth += 1) {
+        if (visited.has(currentId)) {
+          throw new Error('Route alias cycle.');
+        }
+
+        visited.add(currentId);
+        const route = routes[currentId];
+
+        if (!route || route.enabled !== true) {
+          return null;
+        }
+
+        if (typeof route.destination === 'string' && route.destination.trim()) {
+          return {
+            id: currentId,
+            destination: route.destination.trim()
+          };
+        }
+
+        if (typeof route.alias !== 'string' || !routePattern.test(route.alias)) {
+          return null;
+        }
+
+        currentId = route.alias;
+      }
+
+      throw new Error('Route alias depth exceeded.');
+    }
+
+    try {
+      const response = await fetch('./routes.json?v=' + Date.now(), {
+        cache: 'no-store',
+        credentials: 'same-origin'
+      });
+
+      if (!response.ok) {
+        throw new Error('Route registry unavailable.');
+      }
+
+      const registry = await response.json();
+      const routeId = requested || registry.default;
+
+      if (typeof routeId !== 'string' || !routePattern.test(routeId)) {
+        showFallback('The requested routing signal is invalid.');
+        return;
+      }
+
+      if (!registry.routes || typeof registry.routes !== 'object') {
+        throw new Error('Route registry invalid.');
+      }
+
+      const route = resolveRoute(registry.routes, routeId);
+
+      if (!route) {
+        showFallback('The requested routing signal is not active.');
+        return;
+      }
+
+      const destination = new URL(route.destination, window.location.href);
+
+      if (destination.protocol !== 'https:' && destination.protocol !== 'http:') {
+        throw new Error('Route destination protocol blocked.');
+      }
+
+      title.textContent = 'The route resolved.';
+      status.textContent = 'Continuing to the current Cyber Apparel Co. terminal.';
+      link.href = destination.href;
+      link.hidden = false;
+
+      window.setTimeout(function () {
+        window.location.replace(destination.href);
+      }, 500);
+    } catch (error) {
+      console.error(error);
+      showFallback('The routing registry could not be loaded.');
+    }
+  }());
+</script>
+
+</body>
+</html>

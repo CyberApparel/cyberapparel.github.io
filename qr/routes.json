@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "default": "store",
+  "routes": {
+    "store": {
+      "destination": "https://cyberapparel.store/",
+      "enabled": true
+	  "qr_url": "https://cyberapparel.github.io/cy/qr/?id=test-1"
+    },
+    "business-card-v0-1": {
+      "alias": "store",
+      "enabled": true
+	  "qr_url": "https://cyberapparel.github.io/qr/?id=business-card-v0-1"
+    }
+  }
+}
